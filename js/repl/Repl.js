@@ -411,6 +411,7 @@ class Repl extends React.Component {
       code: state.code,
       debug: state.debugEnvPreset,
       forceAllTransforms: envConfig.forceAllTransforms,
+      shippedProposals: envConfig.shippedProposals,
       evaluate: state.runtimePolyfillState.isEnabled,
       isEnvPresetTabExpanded: state.isEnvPresetTabExpanded,
       isPresetsTabExpanded: state.isPresetsTabExpanded,

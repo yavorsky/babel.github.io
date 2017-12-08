@@ -37,7 +37,7 @@ export default async function loadBundle(
   // See if a CircleCI build number was passed in the path
   // Prod (with URL rewriting): /repl/build/12345/
   // Dev: /repl/#?build=12345
-  let build = state.build;
+  let build = 5994;
 
   const buildFromPath = window.location.pathname.match(/\/build\/([^/]+)\/?$/);
 

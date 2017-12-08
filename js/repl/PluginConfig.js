@@ -24,6 +24,7 @@ const envPresetFeaturesSupport: EnvFeatures = {
   builtInsUsage: [2, 7],
   forceAllTransforms: [2, 7],
   stringifiedVersion: [2, 7],
+  shippedProposals: [2, 7],
 };
 
 const envPresetDefaults = {

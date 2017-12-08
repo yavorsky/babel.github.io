@@ -11,6 +11,7 @@ export type EnvConfig = {
   isNodeEnabled: boolean,
   builtIns: string | false,
   forceAllTransforms: boolean,
+  shippedProposals: boolean,
   version?: string,
   node: ?string,
 };
@@ -84,6 +85,7 @@ export type PersistedState = {
   isPresetsTabExpanded: boolean,
   isSettingsTabExpanded: boolean,
   forceAllTransforms: boolean,
+  shippedProposals: boolean,
   lineWrap: boolean,
   presets: ?string,
   showSidebar: boolean,
